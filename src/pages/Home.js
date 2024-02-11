@@ -15,7 +15,7 @@ function Home() {
       width: '100%',
     }}>
       <div>
-        <h1>Welcome to the Home Page</h1>
+        <h1>Welcome to the Pollution Tracker</h1>
         <p>
           Learn about the Pollution around Long Island.<br/>
           You can make a difference!
