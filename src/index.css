@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  cursor: url('Tree_point.png'), auto;
 }
 
 code {
@@ -14,4 +15,8 @@ code {
 
 iframe {
   border: thick solid black;
+}
+
+body a:hover{
+  cursor: url('team_trees_1118.png'), auto;
 }

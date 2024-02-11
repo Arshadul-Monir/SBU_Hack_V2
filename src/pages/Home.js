@@ -1,6 +1,5 @@
 import React from 'react';
 import backgroundImage from '../assets/webback.png'; // Import your image
-import SearchBar from '../components/SearchBar';
 import Map from '../components/Map';
 import '../styles/Home.css';
 
@@ -21,7 +20,6 @@ function Home() {
           Learn about the Pollution around Long Island.<br/>
           You can make a difference!
         </p>
-        <SearchBar />
         <p>
           <br/>
         </p>
