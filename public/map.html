@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d291760f5c675780efe80cfe314f7820 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d291760f5c675780efe80cfe314f7820" ></div>
+        
+</body>
+<script>    
+    
+            var map_d291760f5c675780efe80cfe314f7820 = L.map(
+                "map_d291760f5c675780efe80cfe314f7820",
+                {
+                    center: [40.8128, -73.056],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    zoomControls: false,
+                    scrollWheelZoom: false,
+                    dragging: false,
+                }
+            );
+            L.control.scale().addTo(map_d291760f5c675780efe80cfe314f7820);
+
+            
+
+        
+    
+            var tile_layer_34da5b19691035d867282d6d3c682ca6 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+            var circle_marker_8ecd24dd50a1a33923ab5b0bb886183d = L.circleMarker(
+                [40.6956552, -73.3256753],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_64c723e6229d3203a912f87af167a5ba = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3f0c0d74647d8f578a2bcdd60b9fbcf0 = $(`<div id="html_3f0c0d74647d8f578a2bcdd60b9fbcf0" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Babylon<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 647.54<br/>         <b>Nitric Oxide:</b> 17.88<br/>         <b>Nitrogen Dioxide:</b> 71.29<br/>         <b>Ozone:</b> 0.01<br/>         <b>Sulfur Dioxide:</b> 7.45<br/>         <b>Particulate Matter 2.5:</b> 29.17<br/>         <b>Particulate Matter 10:</b> 39.98         </div>`)[0];
+                popup_64c723e6229d3203a912f87af167a5ba.setContent(html_3f0c0d74647d8f578a2bcdd60b9fbcf0);
+            
+        
+
+        circle_marker_8ecd24dd50a1a33923ab5b0bb886183d.bindPopup(popup_64c723e6229d3203a912f87af167a5ba)
+        ;
+
+        
+    
+    
+            var circle_marker_0c47e1442ad65475b4a782c2b0846506 = L.circleMarker(
+                [40.7792653, -72.9153827],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_b5d57419553afc02e8b713728f656884 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ca1acf625bd3e03508f4900f01c2d4a6 = $(`<div id="html_ca1acf625bd3e03508f4900f01c2d4a6" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Brookhaven<br />         <b>AQI:</b> 2<br/>         <b>Carbon Monoxide:</b> 453.95<br/>         <b>Nitric Oxide:</b> 0.59<br/>         <b>Nitrogen Dioxide:</b> 45.93<br/>         <b>Ozone:</b> 7.51<br/>         <b>Sulfur Dioxide:</b> 3.37<br/>         <b>Particulate Matter 2.5:</b> 19.29<br/>         <b>Particulate Matter 10:</b> 24.67         </div>`)[0];
+                popup_b5d57419553afc02e8b713728f656884.setContent(html_ca1acf625bd3e03508f4900f01c2d4a6);
+            
+        
+
+        circle_marker_0c47e1442ad65475b4a782c2b0846506.bindPopup(popup_b5d57419553afc02e8b713728f656884)
+        ;
+
+        
+    
+    
+            var circle_marker_406b05d8c3a6ee146eac35445ef79653 = L.circleMarker(
+                [40.9633868, -72.1847598],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_f21df653e17eedcbdc19c9e0ef277650 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_66ee2c3dd1c00b5b13070c4d70a54828 = $(`<div id="html_66ee2c3dd1c00b5b13070c4d70a54828" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> East Hampton<br />         <b>AQI:</b> 2<br/>         <b>Carbon Monoxide:</b> 407.22<br/>         <b>Nitric Oxide:</b> 0.0<br/>         <b>Nitrogen Dioxide:</b> 29.13<br/>         <b>Ozone:</b> 25.03<br/>         <b>Sulfur Dioxide:</b> 2.15<br/>         <b>Particulate Matter 2.5:</b> 17.52<br/>         <b>Particulate Matter 10:</b> 20.33         </div>`)[0];
+                popup_f21df653e17eedcbdc19c9e0ef277650.setContent(html_66ee2c3dd1c00b5b13070c4d70a54828);
+            
+        
+
+        circle_marker_406b05d8c3a6ee146eac35445ef79653.bindPopup(popup_f21df653e17eedcbdc19c9e0ef277650)
+        ;
+
+        
+    
+    
+            var circle_marker_749122504b13b5978eb4f8391752bf2f = L.circleMarker(
+                [40.868154, -73.425676],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_026f8cd9e37641db709e366f65dea568 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0f8efd7e92e906467c9f9e0fa6571f76 = $(`<div id="html_0f8efd7e92e906467c9f9e0fa6571f76" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Huntington<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 747.68<br/>         <b>Nitric Oxide:</b> 33.98<br/>         <b>Nitrogen Dioxide:</b> 61.69<br/>         <b>Ozone:</b> 0.0<br/>         <b>Sulfur Dioxide:</b> 5.42<br/>         <b>Particulate Matter 2.5:</b> 29.65<br/>         <b>Particulate Matter 10:</b> 39.95         </div>`)[0];
+                popup_026f8cd9e37641db709e366f65dea568.setContent(html_0f8efd7e92e906467c9f9e0fa6571f76);
+            
+        
+
+        circle_marker_749122504b13b5978eb4f8391752bf2f.bindPopup(popup_026f8cd9e37641db709e366f65dea568)
+        ;
+
+        
+    
+    
+            var circle_marker_3984bd3be0f8784ca64006cc380eb251 = L.circleMarker(
+                [40.7300685, -73.2107266],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_48a079883caa3ae336063ce6a1144a46 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_5df024fff5c810efbc81c929cdda1f19 = $(`<div id="html_5df024fff5c810efbc81c929cdda1f19" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Islip<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 647.54<br/>         <b>Nitric Oxide:</b> 17.88<br/>         <b>Nitrogen Dioxide:</b> 71.29<br/>         <b>Ozone:</b> 0.01<br/>         <b>Sulfur Dioxide:</b> 7.45<br/>         <b>Particulate Matter 2.5:</b> 29.17<br/>         <b>Particulate Matter 10:</b> 39.98         </div>`)[0];
+                popup_48a079883caa3ae336063ce6a1144a46.setContent(html_5df024fff5c810efbc81c929cdda1f19);
+            
+        
+
+        circle_marker_3984bd3be0f8784ca64006cc380eb251.bindPopup(popup_48a079883caa3ae336063ce6a1144a46)
+        ;
+
+        
+    
+    
+            var circle_marker_62c250001c26978e60039a5dab45d732 = L.circleMarker(
+                [40.9168692, -72.6624189],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_08ae3d81f6e804c49f321e39edaca10e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b1fa0c4bb89b33baf8a9b6d22cb61143 = $(`<div id="html_b1fa0c4bb89b33baf8a9b6d22cb61143" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Riverhead<br />         <b>AQI:</b> 2<br/>         <b>Carbon Monoxide:</b> 567.44<br/>         <b>Nitric Oxide:</b> 2.63<br/>         <b>Nitrogen Dioxide:</b> 69.92<br/>         <b>Ozone:</b> 0.57<br/>         <b>Sulfur Dioxide:</b> 4.47<br/>         <b>Particulate Matter 2.5:</b> 23.29<br/>         <b>Particulate Matter 10:</b> 28.72         </div>`)[0];
+                popup_08ae3d81f6e804c49f321e39edaca10e.setContent(html_b1fa0c4bb89b33baf8a9b6d22cb61143);
+            
+        
+
+        circle_marker_62c250001c26978e60039a5dab45d732.bindPopup(popup_08ae3d81f6e804c49f321e39edaca10e)
+        ;
+
+        
+    
+    
+            var circle_marker_078be2eb9db54a46c81cd4c9e37f5697 = L.circleMarker(
+                [40.8559314, -73.2006687],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_2fb810b06af516840890dfbf9cbaa849 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b759171f2281b64a6ca0ab87b62c2dac = $(`<div id="html_b759171f2281b64a6ca0ab87b62c2dac" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Smithtown<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 761.03<br/>         <b>Nitric Oxide:</b> 32.19<br/>         <b>Nitrogen Dioxide:</b> 71.29<br/>         <b>Ozone:</b> 0.0<br/>         <b>Sulfur Dioxide:</b> 7.03<br/>         <b>Particulate Matter 2.5:</b> 31.99<br/>         <b>Particulate Matter 10:</b> 42.42         </div>`)[0];
+                popup_2fb810b06af516840890dfbf9cbaa849.setContent(html_b759171f2281b64a6ca0ab87b62c2dac);
+            
+        
+
+        circle_marker_078be2eb9db54a46c81cd4c9e37f5697.bindPopup(popup_2fb810b06af516840890dfbf9cbaa849)
+        ;
+
+        
+    
+    
+            var circle_marker_3ba8bdb055c86ddb8585afee7f9f8b9f = L.circleMarker(
+                [41.0682649, -72.3388956],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_caddc04ba70a76c191e9c2c4d4502cdc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2e37d68d0fed3966acd96be3e08ef214 = $(`<div id="html_2e37d68d0fed3966acd96be3e08ef214" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Shelter Island<br />         <b>AQI:</b> 2<br/>         <b>Carbon Monoxide:</b> 547.41<br/>         <b>Nitric Oxide:</b> 0.91<br/>         <b>Nitrogen Dioxide:</b> 68.55<br/>         <b>Ozone:</b> 0.89<br/>         <b>Sulfur Dioxide:</b> 3.64<br/>         <b>Particulate Matter 2.5:</b> 21.63<br/>         <b>Particulate Matter 10:</b> 25.73         </div>`)[0];
+                popup_caddc04ba70a76c191e9c2c4d4502cdc.setContent(html_2e37d68d0fed3966acd96be3e08ef214);
+            
+        
+
+        circle_marker_3ba8bdb055c86ddb8585afee7f9f8b9f.bindPopup(popup_caddc04ba70a76c191e9c2c4d4502cdc)
+        ;
+
+        
+    
+    
+            var circle_marker_3420adc7e33e362ad1063de8da66c31d = L.circleMarker(
+                [40.884267, -72.3895296],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_21c54be2420662c2e8c822206d6bfb3d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1cbd0b6413fc911beda97d4fbd3e7e51 = $(`<div id="html_1cbd0b6413fc911beda97d4fbd3e7e51" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Southampton<br />         <b>AQI:</b> 2<br/>         <b>Carbon Monoxide:</b> 453.95<br/>         <b>Nitric Oxide:</b> 0.02<br/>         <b>Nitrogen Dioxide:</b> 41.13<br/>         <b>Ozone:</b> 14.66<br/>         <b>Sulfur Dioxide:</b> 2.33<br/>         <b>Particulate Matter 2.5:</b> 18.69<br/>         <b>Particulate Matter 10:</b> 22.13         </div>`)[0];
+                popup_21c54be2420662c2e8c822206d6bfb3d.setContent(html_1cbd0b6413fc911beda97d4fbd3e7e51);
+            
+        
+
+        circle_marker_3420adc7e33e362ad1063de8da66c31d.bindPopup(popup_21c54be2420662c2e8c822206d6bfb3d)
+        ;
+
+        
+    
+    
+            var circle_marker_27e0d2ce7d8e74fd423c245f198737a2 = L.circleMarker(
+                [41.0651442, -72.4263497],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_d6e04d7ad50f26f922ace63b4a0d1149 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a043356329183884e43d60441d24ff52 = $(`<div id="html_a043356329183884e43d60441d24ff52" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Southold<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 587.46<br/>         <b>Nitric Oxide:</b> 3.21<br/>         <b>Nitrogen Dioxide:</b> 73.34<br/>         <b>Ozone:</b> 0.07<br/>         <b>Sulfur Dioxide:</b> 3.87<br/>         <b>Particulate Matter 2.5:</b> 22.49<br/>         <b>Particulate Matter 10:</b> 26.56         </div>`)[0];
+                popup_d6e04d7ad50f26f922ace63b4a0d1149.setContent(html_a043356329183884e43d60441d24ff52);
+            
+        
+
+        circle_marker_27e0d2ce7d8e74fd423c245f198737a2.bindPopup(popup_d6e04d7ad50f26f922ace63b4a0d1149)
+        ;
+
+        
+    
+    
+            var circle_marker_afb70c196aaef55432f640efed7f2bb8 = L.circleMarker(
+                [40.6736812, -73.6190736],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_3fea796e01bdf753ffdd735c31477d3d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_711561e9ed4f636cd6d2fe287a1cda2f = $(`<div id="html_711561e9ed4f636cd6d2fe287a1cda2f" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Hempstead<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 847.82<br/>         <b>Nitric Oxide:</b> 50.07<br/>         <b>Nitrogen Dioxide:</b> 70.6<br/>         <b>Ozone:</b> 0.0<br/>         <b>Sulfur Dioxide:</b> 11.44<br/>         <b>Particulate Matter 2.5:</b> 38.24<br/>         <b>Particulate Matter 10:</b> 49.06         </div>`)[0];
+                popup_3fea796e01bdf753ffdd735c31477d3d.setContent(html_711561e9ed4f636cd6d2fe287a1cda2f);
+            
+        
+
+        circle_marker_afb70c196aaef55432f640efed7f2bb8.bindPopup(popup_3fea796e01bdf753ffdd735c31477d3d)
+        ;
+
+        
+    
+    
+            var circle_marker_fbbcb1267416d6346fca3c5059abc686 = L.circleMarker(
+                [40.7850862, -73.6495108],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_3b13211576d6da5fdecd0df5e80e46af = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bd18c7c6522300332e3b2078f70940df = $(`<div id="html_bd18c7c6522300332e3b2078f70940df" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> North Hempstead<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 847.82<br/>         <b>Nitric Oxide:</b> 50.07<br/>         <b>Nitrogen Dioxide:</b> 70.6<br/>         <b>Ozone:</b> 0.0<br/>         <b>Sulfur Dioxide:</b> 11.44<br/>         <b>Particulate Matter 2.5:</b> 38.24<br/>         <b>Particulate Matter 10:</b> 49.06         </div>`)[0];
+                popup_3b13211576d6da5fdecd0df5e80e46af.setContent(html_bd18c7c6522300332e3b2078f70940df);
+            
+        
+
+        circle_marker_fbbcb1267416d6346fca3c5059abc686.bindPopup(popup_3b13211576d6da5fdecd0df5e80e46af)
+        ;
+
+        
+    
+    
+            var circle_marker_d6335a18114ddc1c056342ce77f17553 = L.circleMarker(
+                [40.7696522, -73.4998644683956],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_d291760f5c675780efe80cfe314f7820);
+        
+    
+        var popup_1a4cc4a9fff48b7467d991b752fa01e1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6760abb1401ad9f9dd8c4ee1c8b2abda = $(`<div id="html_6760abb1401ad9f9dd8c4ee1c8b2abda" style="width: 100.0%; height: 100.0%;">         <b>Neighborhood:</b> Oyster Bay<br />         <b>AQI:</b> 3<br/>         <b>Carbon Monoxide:</b> 781.06<br/>         <b>Nitric Oxide:</b> 36.66<br/>         <b>Nitrogen Dioxide:</b> 75.4<br/>         <b>Ozone:</b> 0.0<br/>         <b>Sulfur Dioxide:</b> 10.25<br/>         <b>Particulate Matter 2.5:</b> 36.49<br/>         <b>Particulate Matter 10:</b> 48.93         </div>`)[0];
+                popup_1a4cc4a9fff48b7467d991b752fa01e1.setContent(html_6760abb1401ad9f9dd8c4ee1c8b2abda);
+            
+        
+
+        circle_marker_d6335a18114ddc1c056342ce77f17553.bindPopup(popup_1a4cc4a9fff48b7467d991b752fa01e1)
+        ;
+
+        
+    
+</script>
