@@ -17,3 +17,5 @@ Python libraries:
     pandas
     display
     folium
+
+WeatherPollutionScraper and df.csv were made by me Chris
